@@ -27,5 +27,10 @@
         "default": "Alt+Q"
       }
     }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "fakeemail@thisisafameemail.fake"
+    }
   }
 }

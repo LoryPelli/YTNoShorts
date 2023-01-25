@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "YTNoShorts",
   "description": "Replace youtube shorts video version with normal one",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "icons": {
       "16":  "./16x16.png",
       "32":  "./32x32.png",
@@ -17,7 +17,6 @@
       "128": "./128x128.png"
     }
   },
-  "permissions": ["activeTab"],
   "host_permissions": ["https://www.youtube.com/"],
   "background": {
     "scripts": ["index.js"]
@@ -25,7 +24,8 @@
   "commands": {
     "_execute_action": {
       "suggested_key": {
-        "default": "Alt+Q"
+        "default": "Alt+Q",
+        "mac": "Alt+Q"
       }
     }
   },
